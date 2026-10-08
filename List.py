@@ -4,4 +4,4 @@ Total=0
 for i in List:
     Total+=i
 
-print(Total)    
+print("Total of list Element is ",Total)    
