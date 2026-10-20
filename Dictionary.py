@@ -1,4 +1,3 @@
-dict 
 info={
     "name":"someshwar",
     "marks":{

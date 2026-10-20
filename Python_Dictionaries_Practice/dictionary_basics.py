@@ -7,3 +7,5 @@ Student={
 print(Student["name"])
 print(Student["Age"])
 print(Student["Roll_No"])
+
+print(type(Student))
