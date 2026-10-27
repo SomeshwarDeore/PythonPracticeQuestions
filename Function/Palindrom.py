@@ -1,9 +1,5 @@
-def Palindrom(str):
-    reverse=str[::-1]
-    if reverse==str:
-        print("Palindrom")
-    
-    else:
-        print("Not Palindrom")   
-        
-Palindrom("Someshwar")         
+def Palindrom(Str):
+    Str=Str.lower().replace(" ","")
+    return Str==Str[::-1]
+
+print(Palindrom("Someshwar"))
