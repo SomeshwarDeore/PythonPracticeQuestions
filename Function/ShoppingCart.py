@@ -7,7 +7,7 @@ def total_Spend(cart):
 
 cart=[
     {"name":"Appple","Price":100,"Quantity":3},
-    {"name":"Banana","Price":20,"Quantity":int(input("Enter how many Banana perchase:"))}
+    {"name":"Banana","Price":20,"Quantity":12}
 ]
 
 print(total_Spend(cart))
