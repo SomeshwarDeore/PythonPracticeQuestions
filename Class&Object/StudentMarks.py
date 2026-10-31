@@ -1,9 +1,9 @@
 class Student():
-    def __init__(self,name,marks):
+    def __init__(self,name,marks:list[int]):
         self.name=name
         self.marks=marks
         
-    def avr(self):
+    def avr(self)->int:
         average=0
         for i in self.marks:
             average+=i
